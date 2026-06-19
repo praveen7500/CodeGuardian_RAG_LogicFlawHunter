@@ -1,0 +1,15 @@
+CREATE (r:Repository)
+
+CREATE (f:File)
+
+CREATE (fn:Function)
+
+CREATE (api:API)
+
+CREATE (db:Database)
+
+CREATE (state:State)
+
+CREATE (role:Role)
+
+CREATE (user:User)
