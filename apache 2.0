@@ -1,0 +1,72 @@
+
+---
+
+# Repository Structure
+
+```text
+ai-logic-flaw-auditor/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── requirements.txt
+│
+├── docs/
+│   ├── architecture.md
+│   ├── threat-model.md
+│   ├── graph-rag-design.md
+│   └── security-taxonomy.md
+│
+├── src/
+│   ├── ingestion/
+│   │   ├── repo_loader.py
+│   │   ├── parser.py
+│   │   └── language_detector.py
+│   │
+│   ├── graph_builder/
+│   │   ├── ast_builder.py
+│   │   ├── cfg_builder.py
+│   │   ├── dfg_builder.py
+│   │   └── knowledge_graph.py
+│   │
+│   ├── embeddings/
+│   │   ├── code_embeddings.py
+│   │   └── vector_store.py
+│   │
+│   ├── rag/
+│   │   ├── graph_rag.py
+│   │   └── retriever.py
+│   │
+│   ├── agents/
+│   │   ├── business_logic_agent.py
+│   │   ├── race_condition_agent.py
+│   │   ├── state_machine_agent.py
+│   │   ├── authorization_agent.py
+│   │   └── exploit_reasoning_agent.py
+│   │
+│   ├── scoring/
+│   │   ├── risk_engine.py
+│   │   └── confidence_score.py
+│   │
+│   └── reporting/
+│       ├── report_generator.py
+│       └── remediation_engine.py
+│
+├── datasets/
+│   ├── cwe/
+│   ├── capec/
+│   └── owasp/
+│
+├── evaluation/
+│   ├── benchmark_suite.py
+│   └── attack_scenarios/
+│
+├── deployment/
+│   ├── docker/
+│   ├── kubernetes/
+│   └── github_actions/
+│
+└── examples/
+    ├── vulnerable_repo/
+    └── sample_reports/
