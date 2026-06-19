@@ -1,43 +1,137 @@
-Vulnerabilities Detected
-Business Logic Flaws
-Workflow Manipulation
-Order Processing Abuse
-Coupon Exploitation
-Financial Logic Errors
-State Machine Vulnerabilities
-Invalid State Transitions
-Workflow Bypass
-Approval Process Circumvention
-Race Conditions
-TOCTOU
-Concurrent Access Violations
-Resource Locking Issues
-Access Control Issues
-Broken Authorization
-IDOR
-Privilege Escalation
-Multi-Step Attack Chains
-Cross-Service Abuse
-API Chaining
-Workflow Escalation
-Tech Stack
-AI Layer
-Code Llama
-DeepSeek-Coder
-StarCoder2
-Qwen-Coder
-RAG Layer
-GraphRAG
-Neo4j
-ChromaDB
-FAISS
-Analysis Layer
-Tree-sitter
-Joern
-Semgrep
-CodeQL
-Infrastructure
-Python
-FastAPI
-Docker
-Kubernetes
+# Vulnerabilities Detected
+
+## Business Logic Flaws
+
+- Workflow Manipulation
+- Order Processing Abuse
+- Coupon Exploitation
+- Financial Logic Errors
+
+## State Machine Vulnerabilities
+
+- Invalid State Transitions
+- Workflow Bypass
+- Approval Process Circumvention
+
+## Race Conditions
+
+- TOCTOU (Time-of-Check Time-of-Use)
+- Concurrent Access Violations
+- Resource Locking Issues
+
+## Access Control Issues
+
+- Broken Authorization
+- IDOR (Insecure Direct Object Reference)
+- Privilege Escalation
+
+## Multi-Step Attack Chains
+
+- Cross-Service Abuse
+- API Chaining
+- Workflow Escalation
+
+---
+
+# Tech Stack
+
+## AI Layer
+
+| Component | Purpose |
+|------------|------------|
+| Code Llama | Code reasoning and vulnerability analysis |
+| DeepSeek-Coder | Security-focused code understanding |
+| StarCoder2 | Repository-scale code comprehension |
+| Qwen-Coder | Multi-language code auditing |
+
+## RAG Layer
+
+| Technology | Purpose |
+|------------|------------|
+| GraphRAG | Repository-wide contextual retrieval |
+| Neo4j | Knowledge graph storage |
+| ChromaDB | Vector database |
+| FAISS | High-performance similarity search |
+
+## Analysis Layer
+
+| Tool | Purpose |
+|--------|--------|
+| Tree-sitter | AST parsing |
+| Joern | Code property graph analysis |
+| Semgrep | Pattern-based vulnerability detection |
+| CodeQL | Semantic code analysis |
+
+## Infrastructure
+
+| Technology | Purpose |
+|------------|------------|
+| Python | Core platform development |
+| FastAPI | REST API framework |
+| Docker | Containerization |
+| Kubernetes | Scalable deployment |
+
+---
+
+# Roadmap
+
+## Phase 1 — Repository Intelligence Foundation
+
+- [ ] Repository Ingestion
+- [ ] AST Extraction
+- [ ] Vector Database Setup
+- [ ] Multi-language Parsing Support
+
+## Phase 2 — Graph-RAG Architecture
+
+- [ ] Graph-RAG Implementation
+- [ ] Security Knowledge Graph
+- [ ] Cross-File Dependency Mapping
+- [ ] Call Graph Generation
+
+## Phase 3 — Agentic Vulnerability Discovery
+
+- [ ] Business Logic Analysis Agent
+- [ ] State Machine Analysis Agent
+- [ ] Race Condition Detection Agent
+- [ ] Access Control Verification Agent
+
+## Phase 4 — Automated Exploit Reasoning
+
+- [ ] Attack Path Generation
+- [ ] Exploitability Assessment
+- [ ] Automated Reproducibility Analysis
+- [ ] Root Cause Discovery
+
+## Phase 5 — Enterprise CI/CD Integration
+
+- [ ] GitHub Actions Integration
+- [ ] Pull Request Security Reviews
+- [ ] Continuous Repository Auditing
+- [ ] Security Regression Detection
+
+---
+
+# Expected Outcomes
+
+✅ Reduced False Positives
+
+✅ Discovery of Deep Logic Flaws
+
+✅ Automated Security Verification
+
+✅ Continuous Repository Auditing
+
+✅ Software Supply Chain Hardening
+
+✅ Repository-Wide Security Visibility
+
+✅ Faster Security Review Cycles
+
+✅ Improved Developer Security Productivity
+
+---
+
+# Target Impact
+
+The platform aims to move beyond traditional SAST by enabling repository-scale reasoning capable of uncovering complex business logic vulnerabilities, state-machine flaws, race conditions, and cross-service attack chains that conventional scanners often miss.
