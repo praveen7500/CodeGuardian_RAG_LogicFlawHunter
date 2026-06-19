@@ -1,0 +1,21 @@
+class StateMachineAgent:
+
+    STATES = [
+        "pending",
+        "approved",
+        "rejected",
+        "completed"
+    ]
+
+    def analyze(self, content):
+
+        discovered = []
+
+        for state in self.STATES:
+
+            if state in content.lower():
+                discovered.append(state)
+
+        return {
+            "states_found": discovered
+        }
