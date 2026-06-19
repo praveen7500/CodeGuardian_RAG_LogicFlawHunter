@@ -1,0 +1,43 @@
+Vulnerabilities Detected
+Business Logic Flaws
+Workflow Manipulation
+Order Processing Abuse
+Coupon Exploitation
+Financial Logic Errors
+State Machine Vulnerabilities
+Invalid State Transitions
+Workflow Bypass
+Approval Process Circumvention
+Race Conditions
+TOCTOU
+Concurrent Access Violations
+Resource Locking Issues
+Access Control Issues
+Broken Authorization
+IDOR
+Privilege Escalation
+Multi-Step Attack Chains
+Cross-Service Abuse
+API Chaining
+Workflow Escalation
+Tech Stack
+AI Layer
+Code Llama
+DeepSeek-Coder
+StarCoder2
+Qwen-Coder
+RAG Layer
+GraphRAG
+Neo4j
+ChromaDB
+FAISS
+Analysis Layer
+Tree-sitter
+Joern
+Semgrep
+CodeQL
+Infrastructure
+Python
+FastAPI
+Docker
+Kubernetes
