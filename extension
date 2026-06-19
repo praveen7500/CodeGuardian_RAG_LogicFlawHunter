@@ -1,0 +1,36 @@
+src/
+│
+├── agents/
+│   ├── orchestrator.py
+│   ├── business_logic_agent.py
+│   ├── race_condition_agent.py
+│   ├── state_machine_agent.py
+│   ├── authorization_agent.py
+│   └── attack_path_agent.py
+│
+├── graph_builder/
+│   ├── neo4j_graph.py
+│   ├── code_graph_builder.py
+│   └── dependency_graph.py
+│
+├── rag/
+│   ├── graph_rag.py
+│   ├── retriever.py
+│   └── embeddings.py
+│
+├── parsers/
+│   ├── tree_sitter_parser.py
+│   └── language_router.py
+│
+├── knowledge/
+│   ├── cwe_mapper.py
+│   ├── capec_mapper.py
+│   └── owasp_mapper.py
+│
+├── attack_graph/
+│   ├── attack_path_generator.py
+│   └── exploit_chain.py
+│
+└── llm/
+    ├── model_router.py
+    └── prompt_templates.py
