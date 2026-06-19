@@ -1,0 +1,71 @@
+                    ┌─────────────────────┐
+                    │ Repository Scanner  │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+
+                ┌─────────────────────────────┐
+                │ Multi-Language Parsing Layer│
+                └─────────────────────────────┘
+                               │
+
+       ┌───────────────┬───────────────┬───────────────┐
+       ▼               ▼               ▼
+
+    TreeSitter      Joern CPG      CodeQL Extractor
+
+       ▼               ▼               ▼
+
+      AST            CPG            Data Flow
+
+       └───────────────┬───────────────┘
+                       ▼
+
+            Repository Knowledge Graph
+
+                       ▼
+
+                  Neo4j Graph
+
+                       ▼
+
+           Graph-RAG Retrieval Layer
+
+         ┌─────────────┬──────────────┐
+         ▼             ▼              ▼
+
+      ChromaDB      FAISS         BM25
+
+                       ▼
+
+          Context Construction Engine
+
+                       ▼
+
+               LLM Security Layer
+
+      ┌─────────┬─────────┬─────────┬─────────┐
+      ▼         ▼         ▼         ▼
+
+ Business   State     Race     Authorization
+ Logic      Machine   Agent       Agent
+
+                       ▼
+
+             Exploit Reasoning Agent
+
+                       ▼
+
+               Attack Chain Agent
+
+                       ▼
+
+                 Risk Scoring
+
+                       ▼
+
+              CWE/CAPEC Mapping
+
+                       ▼
+
+                 SARIF Report
